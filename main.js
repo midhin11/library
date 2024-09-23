@@ -85,17 +85,17 @@ addButton.addEventListener("click", function() {
             card.setAttribute("class", "card")
 
             let titleCardName = document.createElement("div");
-            titleCardName.textContent = `Book: ${title}`;
+            titleCardName.innerHTML = `Book:&emsp;&ensp;${title}`;
             titleCardName.setAttribute("class", "book-card-name");
             card.appendChild(titleCardName);
 
             let authorCardName = document.createElement("div");
-            authorCardName.textContent = `Author: ${author}`;
+            authorCardName.innerHTML = `Author: &ensp;${author}`;
             authorCardName.setAttribute("class", "author-card-name");
             card.appendChild(authorCardName);
 
             let pagesCardName = document.createElement("div");
-            pagesCardName.textContent = "Pages: " + pages;
+            pagesCardName.innerHTML = "Pages: &ensp;&ensp;" + pages;
             pagesCardName.setAttribute("class", "pages-card-name");
             card.appendChild(pagesCardName);
 
