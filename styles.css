@@ -1,0 +1,29 @@
+body {
+    height: 99vh;
+    margin: 3px
+}
+
+body > * {
+    border: 0.5px solid red;
+}
+
+.header {
+    height: 9%;
+}
+
+.main {
+    height: 85%;
+    display: flex;
+}
+
+.main > * {
+    border: 1px solid purple;
+}
+
+.lib-section {
+    flex-grow: 1;
+}
+
+.footer {
+    height: 6%;
+}
