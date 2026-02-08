@@ -8,15 +8,17 @@ body {
 body > * {
     background-color: oklch(27.9% 0.041 260.031);
     color: oklch(92.9% 0.013 255.508);
+    
 }
 
 .header {
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     padding: 10px 15px;
     background-color: oklch(13% 0.028 261.692);
-    font-weight: 1000;
+    /* font-weight: 1000; */
+    font-family: 'Rubik Distressed', 'Times New Roman', Times, serif;
 }
 
 .main {
@@ -40,7 +42,7 @@ body > * {
 .cards {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
 }
 
 .card {
@@ -83,7 +85,7 @@ form {
 }
 
 .addbook > form > * {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 label {
@@ -103,7 +105,7 @@ input {
 
 input::placeholder {
     font-style: italic;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: oklch(70.4% 0.04 256.788);
 }
 
@@ -120,11 +122,12 @@ input:focus {
 
 button {
     cursor: pointer;
-    padding: 4px 15px 4px 15px;
+    padding: 8px 15px 8px 15px;
     border: 1px solid oklch(92.9% 0.013 255.508);
     background-color: oklch(13% 0.028 261.692);
     color: oklch(92.9% 0.013 255.508);
     border-radius: 10px;
+    font-weight: bold;
 }
 
 button:hover {

@@ -82,7 +82,7 @@ addBookBtn.addEventListener("click", ()=>{
         let newBookAuthorContainer =  document.createElement("div");
         newBookAuthorContainer.setAttribute("class", "author");
         let newBookAuthorHeader = document.createElement("div");
-        newBookAuthorHeader.textContent = "Author:";
+        newBookAuthorHeader.textContent = "Written by:";
         let newBookAuthor = document.createElement("div");
         newBookAuthor.textContent = myLibrary[0].author;
         newBookAuthorContainer.append(newBookAuthorHeader, newBookAuthor);
