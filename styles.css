@@ -46,10 +46,12 @@ body > * {
 }
 
 .card {
-    border: 1px solid oklch(86.9% 0.022 252.894);
+    border: 2px solid oklch(86.9% 0.022 252.894);
+    border-left: 15px solid oklch(70.4% 0.04 256.788);
     padding: 20px;
     border-radius: 15px;
     background-color: oklch(21% 0.034 264.665);
+    box-shadow: 3px 3px 10px oklch(55.4% 0.046 257.417);
 }
 
 .card > * {
