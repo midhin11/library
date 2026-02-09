@@ -51,7 +51,7 @@ body > * {
     padding: 20px;
     border-radius: 15px;
     background-color: oklch(21% 0.034 264.665);
-    box-shadow: 3px 3px 10px oklch(55.4% 0.046 257.417);
+    box-shadow: 2px 2px 8px oklch(47.706% 0.03745 255.735);
 }
 
 .card > * {
